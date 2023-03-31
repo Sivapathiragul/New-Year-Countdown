@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(newyear.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(232, 255, 241);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+}
+.countdown{
+    display: flex;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.time h2{
+    margin-top: 20px;
+}
+.year h1{
+    font-size: 80px;
+    position:absolute;
+    bottom: 0;
+    left: 40vw;
+    opacity: 0.5;
+}
